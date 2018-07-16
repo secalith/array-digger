@@ -18,6 +18,11 @@
     "extra": {
         "zf": {
             "config-provider": "ArrayDigger\\ConfigProvider"
+        },
+        "branch-alias": {
+          "stable": "master",
+          "dev-master": "master",
+          "dev-develop": "master"
         }
     }
 }
