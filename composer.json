@@ -3,7 +3,7 @@
     "description": "Extracts the value from given array by given path (with delimiter). as default delimiter it uses dot(.)",
     "type": "library",
     "license": "BSD-3-Clause",
-    "version": "1.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Jan F Kowalski",
@@ -21,8 +21,9 @@
             "config-provider": "ArrayDigger\\ConfigProvider"
         },
         "branch-alias": {
-          "dev-master": "1.x-dev",
-          "dev-develop": "1.x-dev"
+          "stable": "1.x",
+          "dev-master": "1.x",
+          "dev-develop": "1.x"
         }
     }
 }
