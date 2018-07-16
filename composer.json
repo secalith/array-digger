@@ -3,7 +3,7 @@
     "description": "Extracts the value from given array by given path (with delimiter). as default delimiter it uses dot(.)",
     "type": "library",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "stable",
     "authors": [
         {
             "name": "Jan F Kowalski",
