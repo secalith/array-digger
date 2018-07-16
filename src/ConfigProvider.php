@@ -34,7 +34,7 @@ class ConfigProvider
     {
         return array(
             'invokables' => array(
-                \Secalith\ArrayDigger\Service\ArrayDigger::class => \Secalith\ArrayDigger\Service\ArrayDigger::class,
+                Service\ArrayDigger::class => Service\ArrayDigger::class,
             ),
             'factories'  => array(),
         );
