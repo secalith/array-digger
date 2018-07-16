@@ -1,0 +1,23 @@
+{
+    "name": "secalith/array-digger",
+    "description": "Extracts the value from given array by given path (with delimiter). as default delimiter it uses dot(.)",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jan F Kowalski",
+            "email": "jan@secalith.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^5.5"
+    },
+    "psr-4": {
+        "ArrayDigger\\": "src/"
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "ArrayDigger\\ConfigProvider"
+        }
+    }
+}
